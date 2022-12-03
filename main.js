@@ -13,7 +13,7 @@ btnSimpan.addEventListener('click', function() {
         let todoContainer = document.querySelector('.list-group');
         let todoHTML = todoContainer.innerHTML
         todoHTML += `
-        <li class="list-group-item list-group-item-primary d-flex justify-content-between mb-2 rounded">
+        <li class="list-group-item d-flex justify-content-between mb-2 rounded">
             <div>
                 <input class="form-check-input me-1" type="checkbox" id="firstCheckbox">
                 <label class="form-check-label" for="firstCheckbox"><span>${todoName.value}</span></label>
